@@ -50,3 +50,18 @@ let the_philadelphia_story = {
 let books = [native_son, a_tree_grows_in_brooklyn, the_stranger];
 
 let films = [the_third_man, rebecca, the_philadelphia_story];
+
+let result_list = document.querySelector(".result-list");
+ 
+
+function displayBook(books){
+   let styled_title = "<strong>" + books.title + "</strong>";
+   let title_line = "<div>" + styled_title + " (" +books.year + ") </div>";
+   let author_line = "<div>" + books.author + "</div>";
+   let full_entry = "<li>" + title_line + author_line + "</li>"//
+     
+document.querySelector(".result-list").innerHTML += full_entry;
+  
+}
+
+ books.forEach(displayBook); 
