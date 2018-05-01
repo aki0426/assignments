@@ -1,0 +1,4 @@
+This webpage is for the fictional city of Waterdeep located within the library network of Forgotten Realms.
+The site is simple and has the basic home page displaying the latest news bulletin or message from the library.
+The menu is located right under the header for easy accessibility and directs to About Us, library Services, Calendar or Events, the Catalog, and the user Account pages.
+At the bottom footer includes the Locations of the Waterdeep branch and links to other branches, Hours, and a search the website function.
